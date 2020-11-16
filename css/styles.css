@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -5,7 +6,7 @@
 }
 
 body {
-  background-color: darkcyan;
+  background-color: black;
   color: whitesmoke;
   min-height: 100vh;
   /* display: flex; */
@@ -19,10 +20,13 @@ h1 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 2rem;
+  font-family: "Goldman", cursive;
+  font-weight: 700;
 }
 
 h2 {
   margin-bottom: 2rem;
+  font-family: "Goldman", cursive;
 }
 
 .tareas {
@@ -30,10 +34,13 @@ h2 {
 }
 
 .tareas__link {
+  line-height: 2rem;
   text-decoration: none;
-  color: yellow;
+  color: whitesmoke;
   font-family: sans-serif;
-  transition: 0.3 all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  font-family: "Goldman", cursive;
+  font-weight: 400;
 }
 
 .tareas__link:hover {
