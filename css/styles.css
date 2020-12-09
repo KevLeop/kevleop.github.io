@@ -46,4 +46,5 @@ h2 {
 .tareas__link:hover {
   font-size: 1.2rem;
   font-weight: 600;
+  color: whitesmoke;
 }
